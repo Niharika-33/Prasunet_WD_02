@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch App</title>
+  <link rel="stylesheet" href="styles_02.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="utility-controls">
+    <button id="zoomIn"><i class="fas fa-search-plus"></i></button>
+    <button id="zoomOut"><i class="fas fa-search-minus"></i></button>
+    <button id="exportFile"><i class="fas fa-file-export"></i></button>
+  </div>
+  <div class="stopwatch-container">
+  <div class="stopwatch">
+    <div class="display">
+      <p id="time">00:00:00.00</p>
+    </div>
+    <div class="controls">
+      <button id="startPause">START</button>
+      <button id="reset">RESET</button>
+      <button id="lap">LAP</button>
+    </div>
+    <div id="laps-section">
+      <ul id="laps">
+        <li id="laps-title">LAP HISTORY</li>
+      </ul>
+    </div>
+  </div>
+  <div id="throbber">
+    <div class="lines"></div>
+    <div class="lines"></div>
+    <div class="lines"></div>
+    <div class="lines"></div>
+    <div class="lines"></div>
+    <div class="lines"></div>
+    <div class="lines"></div>
+    <div class="lines"></div>
+    <div class="lines"></div>
+    <div class="lines"></div>
+    <div class="lines"></div>
+    <div class="lines"></div>
+    <div class="lines"></div>
+    <div class="lines"></div>
+    <div class="lines"></div>
+    <div class="lines"></div>
+  </div>
+  </div>
+  <script src="script_02.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
